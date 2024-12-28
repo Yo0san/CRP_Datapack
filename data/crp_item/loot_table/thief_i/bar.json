@@ -1,0 +1,111 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{bar:1}",
+                "minecraft:custom_model_data": 1,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "translate": "Bar",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "keybind": "key.attack",
+                  "color": "red",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "translate": " to attack.",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "translate": "It is strong bar.",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "You can stun the guard only once.",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "translate": "When hit the Guard:",
+                  "italic": false
+                },
+                {
+                  "text": "\uE003",
+                  "color": "white",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "▸ ",
+                      "color": "gray",
+                      "italic": false,
+                      "extra": [
+                        {
+                          "translate": "Stun (0:05)",
+                          "color": "red",
+                          "italic": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "\uE004",
+                  "color": "white",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "▸ ",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "translate": "Blindness (0:05)",
+                      "color": "red",
+                      "italic": false
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

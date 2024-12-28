@@ -1,0 +1,2 @@
+execute at @e[type=marker,limit=1,sort=nearest,tag=smoke_bomb_marker] at @s run summon marker ~ ~ ~ {Tags:["smoke"]}
+execute at @e[type=marker,limit=1,sort=nearest,tag=smoke_bomb_marker] as @s run kill @s

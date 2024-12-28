@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "thief"
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "source_entity": {
+              "type": "minecraft:arrow",
+              "nbt": "{Tags:[\"taser_hit\"]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "crp_item:guard_i/taser_gun/hit"
+  }
+}

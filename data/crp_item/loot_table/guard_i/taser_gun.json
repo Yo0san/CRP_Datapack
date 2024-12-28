@@ -1,0 +1,126 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{taser_gun:1}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 3
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Taser Gun",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "keybind": "key.use",
+                  "color": "yellow",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "translate": " to fire.",
+                      "color": "yellow",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "translate": "give Electric shock to the thief who be shot.",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "*Can use it only once.",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "translate": "When hit the thief:",
+                  "italic": false
+                },
+                {
+                  "text": "\uE003",
+                  "color": "white",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "▸ ",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "translate": "Stun (0:03)",
+                      "color": "red",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "\uE004",
+                  "color": "white",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "▸ ",
+                      "color": "gray",
+                      "italic": false,
+                      "extra": [
+                        {
+                          "translate": "Blindness (0:03)",
+                          "color": "red",
+                          "italic": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "\uE005",
+                  "color": "white",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "▸ ",
+                      "color": "gray",
+                      "italic": false,
+                      "extra": [
+                        {
+                          "translate": "Panic (0:20)",
+                          "color": "red",
+                          "italic": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "values": [
+        "crp_main:tick",
+        "crp_positions:t_tick",
+        "crp_positions:g_tick",
+        "crp_rc:tick",
+        "crp_item:t_tick",
+        "crp_item:g_tick",
+        "crp_item:o_tick"
+    ]
+}

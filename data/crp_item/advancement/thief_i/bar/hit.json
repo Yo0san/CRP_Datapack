@@ -1,0 +1,34 @@
+{
+    "criteria": {
+      "hit_bar": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "team": "guard"
+              }
+            }
+          ],
+          "damage": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:iron_hoe",
+                  "components": {
+                    "minecraft:custom_data": "{bar:1}"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "crp_item:thief_i/bar/hit"
+    }
+  }
+  

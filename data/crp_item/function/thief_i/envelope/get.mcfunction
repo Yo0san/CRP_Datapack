@@ -1,0 +1,1 @@
+$give @s emerald[custom_name='{"color":"gold","italic":false,"translate":"Bill"}',lore=['{"color":"white","italic":false,"translate":"Many monies in wrapped tape."}','{"color":"white","italic":false,"translate":"It total is 1 milion yens."}'],custom_data={money:1},custom_model_data=1] $(enve_money)

@@ -1,0 +1,86 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:red_shulker_box",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "custom_data": "{medkit:1}",
+                  "minecraft:custom_model_data": 1
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "translate": "Med Kit",
+                  "color": "red",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "keybind": "key.sneak",
+                    "color": "red",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "translate": " to use"
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "A MedKit with usefull medical supplies.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "*You need to keep sneaking for 8 seconds to gain the effect.",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "When finish medical treatment:",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uE006",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "▸ ",
+                        "color": "gray",
+                        "italic": false,
+                        "extra": [
+                          {
+                            "translate": "Full Recovery",
+                            "color": "blue",
+                            "italic": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

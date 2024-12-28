@@ -1,0 +1,119 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{stim:1}",
+                "minecraft:custom_model_data": 2,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Adrenalin Syringe",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "keybind": "key.sneak",
+                  "color": "green",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "translate": " to inject",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "translate": "A syringe with thick needle.",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "translate": "When after inject:",
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "▸ ",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "translate": "Remove Panic",
+                      "color": "blue",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "▸ ",
+                      "color": "gray",
+                      "italic": false,
+                      "extra": [
+                        {
+                          "translate": "+20% Speed UP I (0:05)",
+                          "color": "blue"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "",
+                  "color": "white",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "▸ ",
+                      "color": "gray",
+                      "extra": [
+                        {
+                          "translate": "+20% Resistance I (0:20)",
+                          "color": "blue",
+                          "italic": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
