@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{money:1}"
+                "minecraft:custom_data": "{money:1}",
+                "minecraft:item_model": "crp:money"
               }
             },
             {

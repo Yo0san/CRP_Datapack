@@ -15,7 +15,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": "{bar:1}",
-                "minecraft:custom_model_data": 1,
+                "minecraft:item_model":"crp:bar",
                 "minecraft:attribute_modifiers": {
                   "modifiers": [],
                   "show_in_tooltip": false

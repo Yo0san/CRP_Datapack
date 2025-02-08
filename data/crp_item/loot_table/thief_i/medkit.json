@@ -12,7 +12,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "custom_data": "{medkit:1}",
-                  "minecraft:custom_model_data": 1
+                  "minecraft:item_model": "crp:medkit"
                 }
               },
               {

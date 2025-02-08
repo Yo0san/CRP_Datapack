@@ -11,11 +11,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": "{stim:1}",
-                "minecraft:custom_model_data": 2,
                 "minecraft:attribute_modifiers": {
                   "modifiers": [],
                   "show_in_tooltip": false
-                }
+                },
+                "minecraft:item_model": "crp:adone_stim"
               }
             },
             {

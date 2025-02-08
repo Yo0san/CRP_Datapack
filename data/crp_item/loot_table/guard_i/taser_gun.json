@@ -11,12 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": "{taser_gun:1}"
+                "minecraft:custom_data": "{taser_gun:1}",
+                "minecraft:item_model": "crp:taser_gun"
               }
-            },
-            {
-              "function": "minecraft:set_custom_model_data",
-              "value": 3
             },
             {
               "function": "minecraft:set_name",
@@ -61,7 +58,7 @@
                   "italic": false
                 },
                 {
-                  "text": "\uE003",
+                  "text": "",
                   "color": "white",
                   "italic": false,
                   "extra": [
@@ -78,7 +75,7 @@
                   ]
                 },
                 {
-                  "text": "\uE004",
+                  "text": "",
                   "color": "white",
                   "italic": false,
                   "extra": [
@@ -97,7 +94,7 @@
                   ]
                 },
                 {
-                  "text": "\uE005",
+                  "text": "",
                   "color": "white",
                   "italic": false,
                   "extra": [
