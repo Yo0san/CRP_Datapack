@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "hit_bar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "crp_money:sys/math"
+  }
+}
