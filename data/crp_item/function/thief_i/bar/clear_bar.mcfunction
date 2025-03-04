@@ -1,0 +1,1 @@
+execute unless entity @s[tag=developer] run item replace entity @s weapon.mainhand with air
