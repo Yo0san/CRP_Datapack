@@ -6,6 +6,9 @@
         "crp_rc:tick",
         "crp_item:t_tick",
         "crp_item:g_tick",
-        "crp_item:o_tick"
+        "crp_item:o_tick",
+        "crp_object:tick",
+        "crp_money:tick",
+        "crp_stage:tick"
     ]
 }
