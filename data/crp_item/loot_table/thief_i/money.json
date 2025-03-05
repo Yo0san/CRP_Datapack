@@ -18,7 +18,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate": "Bill",
+                "translate": "￥10000 Bill",
                 "color": "gold",
                 "italic": false
               }
@@ -28,13 +28,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "Many monies in wrapped tape.",
+                  "translate": "The bill used in Japan.",
                   "color": "white",
                   "italic": false
                 },
                 {
-                  "translate": "It total is 1 milion yens.",
-                  "color": "white",
+                  "text":"￥10000",
+                  "color": "gold",
                   "italic": false
                 }
               ],
