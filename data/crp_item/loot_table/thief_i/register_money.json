@@ -1,0 +1,58 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_data": "{money:1}",
+                  "minecraft:item_model": "crp:money"
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "translate": "￥10000 Bill",
+                  "color": "gold",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "translate": "The bill used in Japan.",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "￥10000",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:storage",
+                  "storage": "crp_object:money",
+                  "path": "money"
+                },
+                "add": false,
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
