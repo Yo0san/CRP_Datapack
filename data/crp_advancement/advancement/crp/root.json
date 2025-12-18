@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:player_head",
+        "components": {
+          "minecraft:item_model": "crp:wttkeidoro"
+        }
+      },
+      "title": {
+        "translate": "Welcome to The Keidoro+",
+        "color": "gold",
+        "italic": false
+      },
+      "description": {
+        "translate": "Join Keidoro+",
+        "italic": false
+      },
+      "background": "minecraft:textures/block/gold_block.png",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": false
+  }

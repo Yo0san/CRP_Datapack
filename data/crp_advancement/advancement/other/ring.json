@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell",
+      "count": 1
+    },
+    "title": {
+      "translate": "Ah~ It's The Ring sound that meat shop~! ",
+      "color": "#ffe600"
+    },
+    "description": {
+      "translate": "Push Ring bell in Meat shop."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "crp_advancement:other/root",
+  "criteria": {
+    "stay": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

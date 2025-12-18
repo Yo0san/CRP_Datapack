@@ -1,0 +1,45 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:player_head",
+        "components": {
+          "minecraft:profile": {
+            "name": "RainBowGirl",
+            "id": [
+              -1604135634,
+              -945208959,
+              -1958112530,
+              995991064
+            ],
+            "properties": [
+              {
+                "name": "textures",
+                "value": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDI4OTcwODI0NywKICAicHJvZmlsZUlkIiA6ICJhMDYyZDUyZWM3YTk0MTgxOGI0OTkyZWUzYjVkOWUxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYWluQm93R2lybCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84Zjg3MWIxZjAxNTIwZDEyNTMyZGE1OWViZTNiMGNjMWQ0MzJhNjQ1YzlhZmNhZDIzMGY1MDk2ZGE5NDU0OTc2IgogICAgfQogIH0KfQ==",
+                "signature": "AxKO0XJOYY7TMKZ1M2cbJhZkfjs0wRapz4kToarW3zMmzrHST3bD5CsNNLQj3vQTtoo9c2cnQCjX1ZjdOjqBVNkLLKxVkpy12ZEUboHez2B8S00E+E2+3nL6VWOnqkWsVhxcPYE3rzRTHiKw2KFQ/tozUVSeaH+cQlIFPcyNlaejHBCKF+9tjrkSgVh4Av6jesB6H71v3ZlmpzpfrPQM4mJe1xsz0sAYBKUH5UWXgL1iJmtZJv6+As6Jz2qM/lu197bGTIfqCaHdIfKXLu1cfswZu3pN1cvUHKyYT2hCCiApAN6Q7nhxy+JGOyP8UKDFE/iM7Xq1DWY6ZfrdlAinm8mkwk4rae/sxuj+ULajZgMJjCCLkFw7FP8jlH0QO6ORsTUFe4CqhqunYgmPLz0sT/iI7mlQ7sqaWJr670aYAC9eATrelQP8Am/kCpLt2PCa8Eyn98Hx//mYydpKqqhyltSFQDfzxsnD9TLM+DUNgnKj8AFglZWChcnlgdnq5MAYVUElWXHTKzhdlsAQ+pLwOKig1lDHVwjX4KiuPUQrbZJXWvWxTxFjw/9Dp4FbuslvWfeiDqrkoO2vK0KtWly4R6guRR4xVCsW6D09oObB3EhcZGMtWNJCNRyJ+0Rl96Y45OqYeeV+jFP79F+U+cSDUC8ZlS2UCTHrUqyrLAB1dYA="
+              }
+            ]
+          }
+        },
+        "count": 1
+      },
+      "title": {
+        "translate": "Tornado Wind Kick!",
+        "color": "#d2fff9",
+        "italic": false
+      },
+      "description": {
+        "translate": "Find fighting game that perfectly original.",
+        "italic": false
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "crp_advancement:other/root",
+    "criteria": {
+      "fight": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
