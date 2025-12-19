@@ -9,6 +9,8 @@
         "crp_item:o_tick",
         "crp_object:tick",
         "crp_money:tick",
-        "crp_stage:tick"
+        "crp_stage:tick",
+        "crp_advancement:tick",
+        "crp_craft:tick"
     ]
 }
