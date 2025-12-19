@@ -1,4 +1,9 @@
 #install
+#TempScore
+scoreboard objectives add Temp dummy
+#PlayerID
+scoreboard objectives add PlayerID dummy
+scoreboard objectives add UUID dummy
 #timer's
 scoreboard objectives add time dummy
 scoreboard objectives add open_time dummy
@@ -38,3 +43,8 @@ scoreboard objectives add meds_t dummy
 scoreboard objectives add stagescore dummy
 #register opening
 scoreboard objectives add register_opening dummy
+#Crafting
+#page
+scoreboard objectives add Crafting_Page dummy
+#storage install
+function crp_main:score/install_storage
