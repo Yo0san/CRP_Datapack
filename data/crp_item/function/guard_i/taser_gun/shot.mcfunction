@@ -21,4 +21,4 @@ kill @e[tag=taser_Motion]
 tag @e[tag=taser_gun] remove taser_gun
 #SE
 playsound block.dispenser.launch player @s ~ ~ ~ 1 2
-execute unless entity @s[tag=developer] run item replace entity @s weapon.mainhand with air
+execute unless entity @s[tag=Developer] run item replace entity @s weapon.mainhand with air
